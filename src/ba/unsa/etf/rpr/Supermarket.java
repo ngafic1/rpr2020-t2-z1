@@ -6,6 +6,7 @@ public class Supermarket {
     public Artikl[] getArtikli(){
         return supermarket;
     }
+    public  int getBrojArtikala(){ return brojArtikala; }
     public Artikl izbaciArtiklSaKodom(String s){
         int i;
         Artikl izbaceni=null;
